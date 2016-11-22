@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	elementFormDefault="qualified">
+	<xs:element name="banks" type="BanksType" />
+
+	<xs:complexType name="BanksType">
+		<xs:sequence>
+			<xs:element name="bank" type="BankType"
+						minOccurs="1" maxOccurs="unbounded" />
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="BankType">
+		<xs:sequence>
+			<xs:element name="depositor-bank" type="DepositorBankType"
+				minOccurs="1" maxOccurs="unbounded" />
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="DepositorBankType">
+		<xs:sequence>
+			<xs:element name="depositor" type="DepositorType"
+				minOccurs="1" maxOccurs="1" />
+			<xs:element name="bank-deposits" type="BankDepositsType"
+				minOccurs="1" maxOccurs="unbounded" />
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="BankDepositsType">
+		<xs:sequence>
+			<xs:element name="bank-deposit" type="BankDepositType"
+				minOccurs="1" maxOccurs="10" />
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="DepositorType">
+		<xs:complexContent>
+			<xs:extension base="Component">
+				<xs:sequence>
+					<xs:element name="name" type="NameType" minOccurs="1"
+								maxOccurs="1" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+
+	<xs:complexType name="NameType">
+		<xs:attribute name="firstname" type="xs:string" default="unknown" use="optional"/>
+		<xs:attribute name="surname" type="xs:string" use="required" />
+	</xs:complexType>
+
+	<xs:complexType name="BankDepositType">
+		<xs:complexContent>
+			<xs:extension base="Component">
+				<xs:sequence>
+					<xs:element name="bankname" type="xs:string" minOccurs="1"
+								maxOccurs="1" />
+					<xs:element name="country" type="xs:string" minOccurs="1"
+								maxOccurs="1" />
+					<xs:element name="type" type="type" minOccurs="1"
+								maxOccurs="1" />
+					<xs:element name="accountid" type="accountid" minOccurs="1"
+								maxOccurs="1" />
+					<xs:element name="profitability" type="xs:integer"
+								minOccurs="1" maxOccurs="1" />
+					<xs:element name="timeconstraints" type="xs:integer"
+								minOccurs="1" maxOccurs="1" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+
+	<xs:complexType name="Component" abstract="true">
+		<xs:attribute name="id" type="xs:ID" use="required" />
+	</xs:complexType>
+
+	<xs:simpleType name="type">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="poste_restante" />
+			<xs:enumeration value="urgent" />
+			<xs:enumeration value="metallic" />
+			<xs:enumeration value="checking" />
+			<xs:enumeration value="savings" />
+			<xs:enumeration value="rollup" />
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="accountid">
+		<xs:restriction base="xs:integer">
+			<xs:pattern value="[0-9]{6}" />
+		</xs:restriction>
+	</xs:simpleType>
+
+</xs:schema>

@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<banks xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="bank.xsd">
+	<bank>
+		<depositor-bank>
+			<depositor id="ID-D1">
+				<name firstname="Sergey" surname="Shmouradko" />
+			</depositor>
+			<bank-deposits>
+				<bank-deposit id="ID-B1">
+					<bankname>Sberbank</bankname>
+					<country>Russia</country>
+					<type>poste_restante</type>
+					<accountid>111111</accountid>
+					<profitability>4</profitability>
+					<timeconstraints>1</timeconstraints>
+				</bank-deposit>
+				<bank-deposit id="ID-B2">
+					<bankname>Deutchebank</bankname>
+					<country>Germany</country>
+					<type>urgent</type>
+					<accountid>222222</accountid>
+					<profitability>2</profitability>
+					<timeconstraints>2</timeconstraints>
+				</bank-deposit>
+				<bank-deposit id="ID-B3">
+					<bankname>Belarusbank</bankname>
+					<country>Belarus</country>
+					<type>metallic</type>
+					<accountid>333333</accountid>
+					<profitability>5</profitability>
+					<timeconstraints>3</timeconstraints>
+				</bank-deposit>
+			</bank-deposits>
+		</depositor-bank>
+	</bank>
+	<bank>
+		<depositor-bank>
+			<depositor id="ID-D2">
+				<name firstname="Oleg" surname="Ivanov" />
+			</depositor>
+			<bank-deposits>
+				<bank-deposit id="ID-B4">
+					<bankname>Sberbank</bankname>
+					<country>Russia</country>
+					<type>poste_restante</type>
+					<accountid>111111</accountid>
+					<profitability>4</profitability>
+					<timeconstraints>1</timeconstraints>
+				</bank-deposit>
+				<bank-deposit id="ID-B5">
+					<bankname>Deutchebank</bankname>
+					<country>Germany</country>
+					<type>urgent</type>
+					<accountid>222222</accountid>
+					<profitability>2</profitability>
+					<timeconstraints>2</timeconstraints>
+				</bank-deposit>
+				<bank-deposit id="ID-B6">
+					<bankname>Belarusbank</bankname>
+					<country>Belarus</country>
+					<type>metallic</type>
+					<accountid>333333</accountid>
+					<profitability>5</profitability>
+					<timeconstraints>3</timeconstraints>
+				</bank-deposit>
+			</bank-deposits>
+		</depositor-bank>
+	</bank>
+	<bank>
+		<depositor-bank>
+			<depositor id="ID-D3">
+				<name firstname="Fedor" surname="Fedorov" />
+			</depositor>
+			<bank-deposits>
+				<bank-deposit id="ID-B7">
+					<bankname>Sberbank</bankname>
+					<country>Russia</country>
+					<type>poste_restante</type>
+					<accountid>111111</accountid>
+					<profitability>4</profitability>
+					<timeconstraints>1</timeconstraints>
+				</bank-deposit>
+				<bank-deposit id="ID-B8">
+					<bankname>Deutchebank</bankname>
+					<country>Germany</country>
+					<type>urgent</type>
+					<accountid>222222</accountid>
+					<profitability>2</profitability>
+					<timeconstraints>2</timeconstraints>
+				</bank-deposit>
+				<bank-deposit id="ID-B9">
+					<bankname>Belarusbank</bankname>
+					<country>Belarus</country>
+					<type>metallic</type>
+					<accountid>333333</accountid>
+					<profitability>5</profitability>
+					<timeconstraints>3</timeconstraints>
+				</bank-deposit>
+			</bank-deposits>
+		</depositor-bank>
+	</bank>
+	<bank>
+		<depositor-bank>
+			<depositor id="ID-D4">
+				<name firstname="Fedor" surname="Fedorov" />
+			</depositor>
+			<bank-deposits>
+				<bank-deposit id="ID-B10">
+					<bankname>Sberbank</bankname>
+					<country>Russia</country>
+					<type>poste_restante</type>
+					<accountid>111111</accountid>
+					<profitability>4</profitability>
+					<timeconstraints>1</timeconstraints>
+				</bank-deposit>
+				<bank-deposit id="ID-B11">
+					<bankname>Deutchebank</bankname>
+					<country>Germany</country>
+					<type>urgent</type>
+					<accountid>222222</accountid>
+					<profitability>2</profitability>
+					<timeconstraints>2</timeconstraints>
+				</bank-deposit>
+				<bank-deposit id="ID-B12">
+					<bankname>Belarusbank</bankname>
+					<country>Belarus</country>
+					<type>metallic</type>
+					<accountid>333333</accountid>
+					<profitability>5</profitability>
+					<timeconstraints>3</timeconstraints>
+				</bank-deposit>
+			</bank-deposits>
+		</depositor-bank>
+	</bank>
+	<bank>
+		<depositor-bank>
+			<depositor id="ID-D5">
+				<name firstname="Petr" surname="Petrov" />
+			</depositor>
+			<bank-deposits>
+				<bank-deposit id="ID-B13">
+					<bankname>Sberbank</bankname>
+					<country>Russia</country>
+					<type>poste_restante</type>
+					<accountid>111111</accountid>
+					<profitability>4</profitability>
+					<timeconstraints>1</timeconstraints>
+				</bank-deposit>
+				<bank-deposit id="ID-B14">
+					<bankname>Deutchebank</bankname>
+					<country>Germany</country>
+					<type>urgent</type>
+					<accountid>222222</accountid>
+					<profitability>2</profitability>
+					<timeconstraints>2</timeconstraints>
+				</bank-deposit>
+			</bank-deposits>
+		</depositor-bank>
+	</bank>
+	<bank>
+		<depositor-bank>
+			<depositor id="ID-D6">
+				<name firstname="Alex" surname="Alexandrov" />
+			</depositor>
+			<bank-deposits>
+				<bank-deposit id="ID-B15">
+					<bankname>Sberbank</bankname>
+					<country>Russia</country>
+					<type>poste_restante</type>
+					<accountid>111111</accountid>
+					<profitability>4</profitability>
+					<timeconstraints>1</timeconstraints>
+				</bank-deposit>
+				<bank-deposit id="ID-B16">
+					<bankname>Deutchebank</bankname>
+					<country>Germany</country>
+					<type>urgent</type>
+					<accountid>222222</accountid>
+					<profitability>2</profitability>
+					<timeconstraints>2</timeconstraints>
+				</bank-deposit>
+			</bank-deposits>
+		</depositor-bank>
+	</bank>
+	<bank>
+		<depositor-bank>
+			<depositor id="ID-D7">
+				<name firstname="John" surname="Johnes" />
+			</depositor>
+			<bank-deposits>
+				<bank-deposit id="ID-B17">
+					<bankname>Sberbank</bankname>
+					<country>Russia</country>
+					<type>poste_restante</type>
+					<accountid>111111</accountid>
+					<profitability>4</profitability>
+					<timeconstraints>1</timeconstraints>
+				</bank-deposit>
+			</bank-deposits>
+		</depositor-bank>
+	</bank>
+	<bank>
+		<depositor-bank>
+			<depositor id="ID-D8">
+				<name firstname="John" surname="Smith" />
+			</depositor>
+			<bank-deposits>
+				<bank-deposit id="ID-B18">
+					<bankname>Sberbank</bankname>
+					<country>Russia</country>
+					<type>poste_restante</type>
+					<accountid>111111</accountid>
+					<profitability>4</profitability>
+					<timeconstraints>1</timeconstraints>
+				</bank-deposit>
+			</bank-deposits>
+		</depositor-bank>
+	</bank>
+	<bank>
+		<depositor-bank>
+			<depositor id="ID-D9">
+				<name firstname="George" surname="Bush" />
+			</depositor>
+			<bank-deposits>
+				<bank-deposit id="ID-B19">
+					<bankname>Sberbank</bankname>
+					<country>Russia</country>
+					<type>poste_restante</type>
+					<accountid>111111</accountid>
+					<profitability>4</profitability>
+					<timeconstraints>1</timeconstraints>
+				</bank-deposit>
+			</bank-deposits>
+		</depositor-bank>
+	</bank>
+	<bank>
+		<depositor-bank>
+			<depositor id="ID-D10">
+				<name firstname="Bill" surname="Clinton" />
+			</depositor>
+			<bank-deposits>
+				<bank-deposit id="ID-B20">
+					<bankname>Sberbank</bankname>
+					<country>Russia</country>
+					<type>poste_restante</type>
+					<accountid>111111</accountid>
+					<profitability>4</profitability>
+					<timeconstraints>1</timeconstraints>
+				</bank-deposit>
+			</bank-deposits>
+		</depositor-bank>
+	</bank>
+	<bank>
+		<depositor-bank>
+			<depositor id="ID-D11">
+				<name firstname="Hillary" surname="Clinton" />
+			</depositor>
+			<bank-deposits>
+				<bank-deposit id="ID-B21">
+					<bankname>Sberbank</bankname>
+					<country>Russia</country>
+					<type>poste_restante</type>
+					<accountid>111111</accountid>
+					<profitability>4</profitability>
+					<timeconstraints>1</timeconstraints>
+				</bank-deposit>
+			</bank-deposits>
+		</depositor-bank>
+	</bank>
+	<bank>
+		<depositor-bank>
+			<depositor id="ID-D12">
+				<name firstname="Donald" surname="Trump" />
+			</depositor>
+			<bank-deposits>
+				<bank-deposit id="ID-B22">
+					<bankname>Sberbank</bankname>
+					<country>Russia</country>
+					<type>poste_restante</type>
+					<accountid>111111</accountid>
+					<profitability>4</profitability>
+					<timeconstraints>1</timeconstraints>
+				</bank-deposit>
+			</bank-deposits>
+		</depositor-bank>
+	</bank>
+	<bank>
+		<depositor-bank>
+			<depositor id="ID-D13">
+				<name firstname="Michael" surname="Jackson" />
+			</depositor>
+			<bank-deposits>
+				<bank-deposit id="ID-B23">
+					<bankname>Sberbank</bankname>
+					<country>Russia</country>
+					<type>poste_restante</type>
+					<accountid>111111</accountid>
+					<profitability>4</profitability>
+					<timeconstraints>1</timeconstraints>
+				</bank-deposit>
+			</bank-deposits>
+		</depositor-bank>
+	</bank>
+	<bank>
+		<depositor-bank>
+			<depositor id="ID-D14">
+				<name firstname="Mickael" surname="Jordan" />
+			</depositor>
+			<bank-deposits>
+				<bank-deposit id="ID-B24">
+					<bankname>Sberbank</bankname>
+					<country>Russia</country>
+					<type>poste_restante</type>
+					<accountid>111111</accountid>
+					<profitability>4</profitability>
+					<timeconstraints>1</timeconstraints>
+				</bank-deposit>
+			</bank-deposits>
+		</depositor-bank>
+	</bank>
+	<bank>
+		<depositor-bank>
+			<depositor id="ID-D15">
+				<name firstname="Diego" surname="Maradona" />
+			</depositor>
+			<bank-deposits>
+				<bank-deposit id="ID-B25">
+					<bankname>Sberbank</bankname>
+					<country>Russia</country>
+					<type>poste_restante</type>
+					<accountid>111111</accountid>
+					<profitability>4</profitability>
+					<timeconstraints>1</timeconstraints>
+				</bank-deposit>
+			</bank-deposits>
+		</depositor-bank>
+	</bank>
+	<bank>
+		<depositor-bank>
+			<depositor id="ID-D16">
+				<name firstname="Zinedine" surname="Zidane" />
+			</depositor>
+			<bank-deposits>
+				<bank-deposit id="ID-B26">
+					<bankname>Sberbank</bankname>
+					<country>Russia</country>
+					<type>poste_restante</type>
+					<accountid>111111</accountid>
+					<profitability>4</profitability>
+					<timeconstraints>1</timeconstraints>
+				</bank-deposit>
+			</bank-deposits>
+		</depositor-bank>
+	</bank>
+</banks>
